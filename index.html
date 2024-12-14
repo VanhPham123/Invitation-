@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html langhttps://youtu.be/ogkbC0uxWTE?si=WAlTz2RISu1YS_o0="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>VanhPham's yearbook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:site_name" content="VanhPham's yearbook">
+  <meta property="og:title" content="VanhPham's yearbook" />
+  <meta property="og:image" content="https://dhruvang-vidhi.ga/images/couple.jpg">
+  <meta property="og:type" content="website" />
+  <meta property="og:updated_time" content="1546232947" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'>
+  <link href="https://fonts.googleapis.com/css?family=Charm|Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+
+<body>
+  <canvas></canvas>
+  <div id="overlay" class="overlay">
+    <div class="info">
+      <div class="head">Graduate Party Invitation</div>
+      <img src="images/mail.svg" alt="couple" width="100">
+      <p>Loading...</p>
+    </div>
+  </div>
+
+  <div class="slide-container">
+    <div class="wrapper">
+      <div class="clash-card barbarian">
+        <div class="leaf"></div>
+        <div class="letter-box">
+          <div class="invitee">Dear,<span class="my friend"></span></div>
+          <div class="invitation">December 22nd, 2024</div>
+          <div class="inviters">VanhPham</div>
+          <div class="invitation">Invite you to his<br />yearbook session</div>
+        </div>
+        <button class="nextBtn">Next <img src="images/next.svg" alt="next" width="12"></button>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="clash-card barbarian">
+        <button class="prevBtn"><img src="images/prev.svg" alt="Previous" width="12"> Prev</button>
+        <div class="leaf"></div>
+        <div class="letter-box">
+          <div class="wrap-box">
+            <span class="label-box">Time</span>
+          </div>
+          <div class="wrap-box">
+            <i class="heart"><img src="images/heart.svg" alt="heart"></i>
+            <ul class="timeline">
+              <li>
+                <div class="left icon"><img src="images/ganesh.png" alt="ganesh" width="50"></div>
+                <div class="right text">
+                  <div class="timeline-time">10:30 am</div>
+                  
+                </div>
+              </li>
+              <li>
+                <div class="left text">
+                  <div class="timeline-time">11:30 am</div>
+                  
+                </div>
+                <div class="right icon"><img src="images/garba.svg" alt="ganesh" width="50"></div>
+              </li>
+              
+            </ul>
+            <i class="i-heart"><img src="images/heart.svg" alt="heart"></i>
+          </div>
+        </div>
+        <button class="nextBtn">Next <img src="images/next.svg" alt="next" width="12"></button>
+      </div>
+    </div>
+     <div class="wrapper">
+      <div class="clash-card barbarian">
+        <button class="prevBtn"><img src="images/prev.svg" alt="Previous" width="12"> Prev</button>
+        <div class="leaf"></div>
+        <div class="letter-box">
+          <div class="wrap-box">        
+            <span class="label-box">Venue</span>
+          </div>
+          <div class="wrap-box">
+            <div class="address">Han Thuyen, Dai Phuc,<br />Bac Ninh.<br /><br />or<br /></div>
+          </div>
+          <div class="wrap-box">
+            <a class="label-box" target="_blank" href="https://maps.app.goo.gl/FwUC7yxoWFSpDxdi7">Find the Direction</a>
+          </div>
+          <div class="wrap-box">
+            <a class="label-box" href="tel:+84 984775815">Call Me</a>
+          </div>
+        </div>
+        <button class="nextBtn">Next <img src="images/next.svg" alt="next" width="12"></button>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="clash-card barbarian">
+        <button class="prevBtn"><img src="images/prev.svg" alt="Previous" width="12"> Prev</button>
+        <div class="leaf"></div>
+        <div class="letter-box">
+          <div class="wrap-box">
+            
+            <div class="last">Glad to have your appearance</div>
+           
+          </div>
+          <div class="wrap-box">
+            <div class="Hashs">
+              I suggest you to use<br />
+              <span onclick="copyToClipboard('lietsi')">#lietsi</span>
+              <span onclick="copyToClipboard('ngaichua')">#ngaichua</span><br/>
+              <span onclick="copyToClipboard('crushtiep')">#crushtiep</span>
+              <br />Tags for Social Media Sharing.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="snackbar">Copied</div>
+  <div class="hideFromUser">
+    <input type="text" id="lietsi" value="lietsi">
+    <input type="text" id="ngaichua" value="ngaichua">
+    <input type="text" id="crushtiep" value="crushtiep">
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
